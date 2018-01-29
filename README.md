@@ -11,10 +11,10 @@ Create a quine from scratch with running elk inrton:
 ```
 
 Saved evolution to see how I was figuring stuff out. I had no prevoius experiance in creating
-quines. History goes:
+quines. Showing the evolution of my thought, history goes:
 
 ```
-quine.rb => quine.lesseval.rb => quine.arr.rb
+quine.alpha.rb => quine.beta.rb => quine.rb
 ```
 
 You can run and observe running elk with:

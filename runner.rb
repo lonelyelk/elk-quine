@@ -1,4 +1,4 @@
-str = `ruby quine.arr.rb`
+str = `ruby #{ARGV[0] || 'quine.rb'}`
 
 puts str
 
