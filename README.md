@@ -1,6 +1,6 @@
 # Quine exercise
 
-Create a quine from scratch with running elk inrton:
+This was started as an excercise. I wanted to create a quine from scratch with running elk inrton:
 
 ```
       ^^..^^           ^^..^^ 
@@ -35,3 +35,14 @@ $ ruby quine.anim.rb 30 0.2
 ```
 
 No specific obfuscation was made to the code. I also tried to keep line length lower 100.
+
+## Inspiration
+
+As I was discovering new interesting new posibilities I went further. Greatly inspired by
+[Yusuke Endoh](https://www.youtube.com/user/mametter) I have created an animated ASCII-art quine
+
+```
+$ ruby quine.ascii.anim.rb
+```
+
+You can see that it can generate itself from a draft non-ascii version.
