@@ -36,6 +36,24 @@ $ ruby quine.anim.rb 30 0.2
 
 No specific obfuscation was made to the code. I also tried to keep line length lower 100.
 
+## Other
+
+Based on the same technic the quine derivative `sha.quine.rb` outputs it's own sha checksum
+using provided algorythm. Defaults to _sha1_.
+
+```
+$ ruby sha.quine.rb
+$ sha1sum sha.quine.rb
+
+$ ruby sha.quine.rb md5
+$ md5sum shq.quine.rb
+
+$ ruby sha.quine.rb sha512
+$ sha512sum shq.quine.rb
+
+... etc
+```
+
 ## Inspiration
 
 As I was discovering new interesting new posibilities I went further. Greatly inspired by
