@@ -34,7 +34,7 @@ the elk will go right and return back the specified number of frames:
 $ ruby quine.anim.rb 30 0.2
 ```
 
-No specific obfuscation was made to the code. I also tried to keep line length lower 100.
+No specific obfuscation was made to the code. I also tried to keep line length below 100.
 
 ## Other
 
@@ -46,10 +46,10 @@ $ ruby sha.quine.rb
 $ sha1sum sha.quine.rb
 
 $ ruby sha.quine.rb md5
-$ md5sum shq.quine.rb
+$ md5sum sha.quine.rb
 
 $ ruby sha.quine.rb sha512
-$ sha512sum shq.quine.rb
+$ sha512sum sha.quine.rb
 
 ... etc
 ```
