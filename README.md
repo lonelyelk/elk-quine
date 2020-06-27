@@ -39,7 +39,7 @@ No specific obfuscation was made to the code. I also tried to keep line length b
 ## Other
 
 Based on the same technic the quine derivative `sha.quine.rb` outputs it's own sha checksum
-using provided algorythm. Defaults to _sha1_. To examine:
+using provided algorithm. Defaults to _sha1_. To examine:
 
 ```
 $ ruby sha.quine.rb
