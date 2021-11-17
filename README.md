@@ -59,6 +59,27 @@ $ md5sum sha.quine.rb > md5.txt
 $ diff md5.txt md5r.txt
 ```
 
+## Palindrome Quine
+
+With ruby it is sufficiant to write just one half and it will work like a generator. Running:
+
+```
+$ ruby palindrome-quine-generator.rb
+```
+and
+```
+$ ruby palindrome-quine.rb
+```
+yields the same output which is `palindrome-quine.rb` contents.
+
+Reverting it:
+
+```ruby
+irb> File.write('palindrome-quine-reversed.rb', File.read('palindrome-quine.rb').chars.reverse.join)
+```
+
+Creates the file identical to the `palindrome-quine.rb`.
+
 ## Inspiration
 
 As I was discovering new interesting new posibilities I went further. Greatly inspired by
