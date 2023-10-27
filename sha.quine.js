@@ -1,9 +1,10 @@
-const crypto = require("node:crypto")
 const s = `
+const crypto = r('node:crypto')
 const n = unescape('%0a')
-const val = 'const crypto = require("node:crypto")' + n + 'const s = ' + q + s + q + n + 'Function("q", "s", "c", s)("' + q + '", s, crypto)' + n
-const shasum = c.createHash('sha1')
+const q = unescape('%60')
+const val =  'const s = ' + q + s + q + n + 'Function("s", "r", s)(s, require)' + n
+const shasum = crypto.createHash('sha1')
 shasum.update(val)
 console.log(shasum.digest('hex'))
 `
-Function("q", "s", "c", s)("`", s, crypto)
+Function("s", "r", s)(s, require)
