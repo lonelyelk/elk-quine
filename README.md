@@ -51,6 +51,9 @@ sha512sum sha.quine.rb
 node sha.quine.js sha224
 sha224sum sha.quine.js
 
+node sha.quine.py sha256
+sha256sum sha.quine.py
+
 # ... etc
 ```
 
